@@ -2,7 +2,7 @@
 
 > Daily-crawled SSD prices, stock and hardware revisions (controller, NAND, DRAM) from 12 Bangladeshi PC shops, scored for a PCIe Gen4 x4 M.2 build. Prices in BDT. Updated daily around 03:00 Bangladesh time (UTC+6).
 
-The interactive page renders from JavaScript; read the files below instead.
+The interactive page renders from JavaScript; read the files below instead. Start with index.md (~25 KB); shortlist.csv is ~200 KB and data.json ~8 MB.
 
 ## Data
 - [Summary in Markdown](https://kamrulhasan12345.github.io/bd-ssd-ledger/index.md): best in-stock drives per capacity, price moves
