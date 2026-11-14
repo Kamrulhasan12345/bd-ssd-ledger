@@ -1,0 +1,14 @@
+# BD SSD Ledger
+
+> Daily-crawled SSD prices, stock and hardware revisions (controller, NAND, DRAM) from 12 Bangladeshi PC shops, scored for a PCIe Gen4 x4 M.2 build. Prices in BDT. Updated daily around 03:00 Bangladesh time (UTC+6).
+
+The interactive page renders from JavaScript; read the files below instead.
+
+## Data
+- [Summary in Markdown](https://kamrulhasan12345.github.io/bd-ssd-ledger/index.md): best in-stock drives per capacity, price moves
+- [Shortlist CSV](https://kamrulhasan12345.github.io/bd-ssd-ledger/shortlist.csv): one row per model x capacity with best price, shop URL, NAND, DRAM, evidence grade, score
+- [Listings CSV](https://kamrulhasan12345.github.io/bd-ssd-ledger/listings.csv): every product page read, with price, stock, specs and matched model family
+- [Full data JSON](https://kamrulhasan12345.github.io/bd-ssd-ledger/data.json): everything the page shows (products, shortlist, families, hardware revisions with source URLs, price history, crawl failures)
+
+## Optional
+- [Interactive page](https://kamrulhasan12345.github.io/bd-ssd-ledger/): tabs are URL fragments (#overview, #trends, #shortlist, #hardware, #listings, #query, #crawl, #about); in a browser the global `D` holds the same object as data.json
