@@ -1,7 +1,7 @@
 # BD SSD Ledger
 
 SSD prices and hardware revisions across 12 Bangladeshi PC shops, scored for a PCIe Gen4 x4 M.2 slot (B650).
-Generated 2026-11-15T23:29:14+00:00 UTC; prices observed 2026-11-05T18:56:46+00:00 to 2026-11-15T23:29:08+00:00 UTC. Prices in BDT.
+Generated 2026-11-16T23:31:15+00:00 UTC; prices observed 2026-11-05T18:56:46+00:00 to 2026-11-16T23:31:07+00:00 UTC. Prices in BDT.
 
 Machine-readable: [data.json](data.json) (everything the page shows), [shortlist.csv](shortlist.csv) (model x capacity, scored), [listings.csv](listings.csv) (every product page read). Interactive page: [index.html](index.html).
 
@@ -60,40 +60,39 @@ Score = 20% nand + 8% dram + 12% evidence + 8% reviewed + 6% warranty + 6% endur
 
 | Model                |   TB |   Best price (BDT) | Shop      | URL                                                                                  |   BDT/TB | NAND          | DRAM                     | Controller                                                   | Varies by revision   | Evidence   |   Shops in stock |   Score |
 |:---------------------|-----:|-------------------:|:----------|:-------------------------------------------------------------------------------------|---------:|:--------------|:-------------------------|:-------------------------------------------------------------|:---------------------|:-----------|-----------------:|--------:|
-| WD Black SN7100      |    2 |              38399 | skyland   | https://www.skyland.com.bd/western-digital-black-sn7100-2tb-pcie-gen4-nvme-ssd       |    19200 | TLC confirmed | DRAM-less, HMB supported | SanDisk/WD in-house (A101-000172-A1, 'Polaris 3'), 4-channel |                      | C          |                5 |   0.779 |
-| Kingston KC3000      |    2 |              42000 | pchouse   | https://www.pchouse.com.bd/kingston-kc3000-2tb-nvme-ssd                              |    21000 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18 (8ch)                                      |                      | C          |                9 |   0.753 |
-| Samsung 990 EVO Plus |    2 |              42000 | ultratech | https://www.ultratech.com.bd/samsung-2tb-990-evo-plus-ssd                            |    21000 | TLC confirmed | DRAM-less, HMB supported | Samsung Piccolo, 4-channel, 5nm                              |                      | C          |                5 |   0.745 |
-| Netac NV7000         |    2 |              38300 | skyland   | https://www.skyland.com.bd/netac-nv7000-2tb-ssd                                      |    19150 | TLC confirmed | Dedicated DRAM confirmed | InnoGrit IG5236                                              | controller           | C          |                4 |   0.741 |
-| Kioxia Exceria Pro   |    2 |              35000 | potaka    | https://potakait.com/kioxia-exceria-pro-2tb-ssd                                      |    17500 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                2 |   0.74  |
-| Seagate FireCuda 530 |    2 |              37800 | potaka    | https://potakait.com/seagate-firecuda-530-2tb-pcie-nvme-gaming-ssd                   |    18900 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                1 |   0.725 |
-| Samsung 990 Pro      |    2 |              51500 | skyland   | https://www.skyland.com.bd/samsung-990-pro-2tb-ssd                                   |    25750 | TLC confirmed | Dedicated DRAM confirmed | Samsung Pascal (S4LV008), 8nm (one zh page says 7nm)         |                      | C          |                4 |   0.698 |
-| Corsair MP600 Pro XT |    2 |              54000 | ultratech | https://www.ultratech.com.bd/corsair-mp600-pro-xt-ssd                                |    27000 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                9 |   0.69  |
-| Zadak TWSG4S         |    2 |              30999 | bengal    | https://bengalpcbd.com/product/zadak-twsg4s-2tb/                                     |    15500 | TLC confirmed | Revision-dependent       | Phison PS5018-E18-41                                         | controller + DRAM    | B          |                1 |   0.69  |
-| Lexar NM790          |    2 |              43200 | pqs       | https://www.pqs.com.bd/lexar-nm790-2tb-m-2-pcie-nvme-ssd                             |    21600 | TLC confirmed | DRAM-less, HMB supported | MaxioTech MAP1602A Falcon Lite                               | controller           | C          |                7 |   0.679 |
-| Kingston KC3000      |    4 |              92500 | ultratech | https://www.ultratech.com.bd/kingston-kc3000-4tb-pcie-40-nvme-m2-ssd-with-dram-cache |    23125 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18 (8ch)                                      |                      | C          |                6 |   0.678 |
-| Corsair MP600 Pro XT |    4 |              95000 | skyland   | https://www.skyland.com.bd/corsair-mp600-pro-xt-4tb-ssd                              |    23750 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                3 |   0.648 |
+| WD Black SN7100      |    2 |              38399 | skyland   | https://www.skyland.com.bd/western-digital-black-sn7100-2tb-pcie-gen4-nvme-ssd       |    19200 | TLC confirmed | DRAM-less, HMB supported | SanDisk/WD in-house (A101-000172-A1, 'Polaris 3'), 4-channel |                      | C          |                5 |   0.773 |
+| Kingston KC3000      |    2 |              42000 | pchouse   | https://www.pchouse.com.bd/kingston-kc3000-2tb-nvme-ssd                              |    21000 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18 (8ch)                                      |                      | C          |                9 |   0.752 |
+| Samsung 990 EVO Plus |    2 |              42000 | ultratech | https://www.ultratech.com.bd/samsung-2tb-990-evo-plus-ssd                            |    21000 | TLC confirmed | DRAM-less, HMB supported | Samsung Piccolo, 4-channel, 5nm                              |                      | C          |                5 |   0.744 |
+| Kioxia Exceria Pro   |    2 |              35000 | potaka    | https://potakait.com/kioxia-exceria-pro-2tb-ssd                                      |    17500 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                2 |   0.738 |
+| Netac NV7000         |    2 |              38300 | skyland   | https://www.skyland.com.bd/netac-nv7000-2tb-ssd                                      |    19150 | TLC confirmed | Dedicated DRAM confirmed | InnoGrit IG5236                                              | controller           | C          |                4 |   0.735 |
+| Seagate FireCuda 530 |    2 |              37800 | potaka    | https://potakait.com/seagate-firecuda-530-2tb-pcie-nvme-gaming-ssd                   |    18900 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                1 |   0.723 |
+| Samsung 990 Pro      |    2 |              51500 | skyland   | https://www.skyland.com.bd/samsung-990-pro-2tb-ssd                                   |    25750 | TLC confirmed | Dedicated DRAM confirmed | Samsung Pascal (S4LV008), 8nm (one zh page says 7nm)         |                      | C          |                4 |   0.694 |
+| Zadak TWSG4S         |    2 |              30999 | bengal    | https://bengalpcbd.com/product/zadak-twsg4s-2tb/                                     |    15500 | TLC confirmed | Revision-dependent       | Phison PS5018-E18-41                                         | controller + DRAM    | B          |                1 |   0.688 |
+| Corsair MP600 Pro XT |    2 |              54000 | ultratech | https://www.ultratech.com.bd/corsair-mp600-pro-xt-ssd                                |    27000 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                9 |   0.685 |
+| Lexar NM790          |    2 |              43200 | pqs       | https://www.pqs.com.bd/lexar-nm790-2tb-m-2-pcie-nvme-ssd                             |    21600 | TLC confirmed | DRAM-less, HMB supported | MaxioTech MAP1602A Falcon Lite                               | controller           | C          |                7 |   0.677 |
+| Kingston KC3000      |    4 |              92500 | ultratech | https://www.ultratech.com.bd/kingston-kc3000-4tb-pcie-40-nvme-m2-ssd-with-dram-cache |    23125 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18 (8ch)                                      |                      | C          |                6 |   0.672 |
 | Corsair MP600 Elite  |    2 |              57000 | ryans     | https://www.ryans.com/corsair-mp600-elite-2tb-m.2-ssd                                |    28500 | TLC confirmed | DRAM-less, HMB supported | Phison E27T (4ch, 12nm)                                      |                      | C          |                3 |   0.644 |
-| MSI Spatium M480 Pro |    2 |              51900 | techland  | https://www.techlandbd.com/msi-spatium-m480-pro-2tb-hs-ssd                           |    25950 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18                                            |                      | C          |                2 |   0.644 |
-| XPG Gammix S70 Blade |    4 |              96000 | ultratech | https://www.ultratech.com.bd/adata-xpg-gammix-s70-blade-4tb-pcie-gen4x4-nvme-ssd     |    24000 | TLC confirmed | Dedicated DRAM confirmed | InnoGrit IG5236                                              |                      | C          |                3 |   0.644 |
+| Corsair MP600 Pro XT |    4 |              95000 | skyland   | https://www.skyland.com.bd/corsair-mp600-pro-xt-4tb-ssd                              |    23750 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                3 |   0.643 |
+| MSI Spatium M480 Pro |    2 |              51900 | techland  | https://www.techlandbd.com/msi-spatium-m480-pro-2tb-hs-ssd                           |    25950 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18                                            |                      | C          |                2 |   0.64  |
+| XPG Gammix S70 Blade |    4 |              96000 | ultratech | https://www.ultratech.com.bd/adata-xpg-gammix-s70-blade-4tb-pcie-gen4x4-nvme-ssd     |    24000 | TLC confirmed | Dedicated DRAM confirmed | InnoGrit IG5236                                              |                      | C          |                3 |   0.639 |
 
-## Biggest price drops since 2026-11-15
-
-| name                                                                      | retailer   |   prev |   cur |   pct | url                                                                              |
-|:--------------------------------------------------------------------------|:-----------|-------:|------:|------:|:---------------------------------------------------------------------------------|
-| Transcend 115S 1TB M.2 2280 (M-Key) PCIe Gen3x4 Internal SSD #TS1TMTE115S | ryans      |  25700 | 24999 |  -2.7 | https://www.ryans.com/transcend-115s-1tb-m.2-2280-m-key-pcie-gen3x4-internal-ssd |
-
-## Biggest price rises
+## Biggest price drops since 2026-11-16
 
 | name                                             | retailer   |   prev |   cur |   pct | url                                                        |
 |:-------------------------------------------------|:-----------|-------:|------:|------:|:-----------------------------------------------------------|
-| Lexar NM620 1TB M.2 NVMe SSD                     | skyland    |  18000 | 19000 |   5.6 | https://www.skyland.com.bd/lexar-nm620-1tb-nvme-ssd        |
-| MSI SPATIUM M470 PRO 500GB PCIe 4.0 NVMe M.2 SSD | startech   |  13600 | 13900 |   2.2 | https://www.startech.com.bd/msi-spatium-m470-pro-500gb-ssd |
+| MSI SPATIUM M470 PRO 500GB PCIe 4.0 NVMe M.2 SSD | startech   |  13900 | 13899 |    -0 | https://www.startech.com.bd/msi-spatium-m470-pro-500gb-ssd |
+
+## Biggest price rises
+
+| name                                                | retailer   |   prev |   cur |   pct | url                                                                           |
+|:----------------------------------------------------|:-----------|-------:|------:|------:|:------------------------------------------------------------------------------|
+| MSI SPATIUM M470 PRO 500GB PCIe Gen4x4 M.2 2280 SSD | techland   |  13600 | 13899 |   2.2 | https://www.techlandbd.com/msi-spatium-m470-pro-500gb-pcie-gen4x4-m2-2280-ssd |
 
 ## Back in stock (price change across a restock is not counted as a move)
 
-| name                                                                                 | retailer   | prev   |   cur | url                                                                      |
-|:-------------------------------------------------------------------------------------|:-----------|:-------|------:|:-------------------------------------------------------------------------|
-| Netac NV5000-N 1TB M.2 2280 PCIe Gen4x4 NVMe SSD #NT01NV5000N-1T0-E4X                | ryans      |        | 19999 | https://www.ryans.com/netac-nv5000-n-1tb-ssd                             |
-| CORSAIR MP600 Elite 1TB M.2 2280 NVMe PCIe Gen4x4 Internal SSD #CSSD-F1000GBMP600ENH | ryans      |        | 26400 | https://www.ryans.com/corsair-mp600-elite-1tb-m.2-2280-nvme-internal-ssd |
+| name                                                           | retailer   | prev   |   cur | url                                                                   |
+|:---------------------------------------------------------------|:-----------|:-------|------:|:----------------------------------------------------------------------|
+| Twinmos Xtreme 2TB M.2 2280 PCIe Gen4x4 NVMe SSD #NV2TBG42280  | ryans      |        | 45900 | https://www.ryans.com/twinmos-xtreme-nvme-ssd                         |
+| PATRIOT VIPER Gaming VP4300 Lite 2TB PCIe Gen4 x4 M.2 NVMe SSD | ultratech  |        | 38000 | https://www.ultratech.com.bd/patriot-viper-gaming-vp4300-lite-2tb-ssd |
 
 Left out here, kept in shortlist.csv: rows under 60% of the model's in-stock median (suspicious_low), out-of-stock rows, and rows with too little hardware evidence (thin_evidence).
