@@ -1,7 +1,7 @@
 # BD SSD Ledger
 
 SSD prices and hardware revisions across 12 Bangladeshi PC shops, scored for a PCIe Gen4 x4 M.2 slot (B650).
-Generated 2026-11-16T23:31:15+00:00 UTC; prices observed 2026-11-05T18:56:46+00:00 to 2026-11-16T23:31:07+00:00 UTC. Prices in BDT.
+Generated 2026-11-17T23:29:25+00:00 UTC; prices observed 2026-11-05T18:56:46+00:00 to 2026-11-17T23:29:19+00:00 UTC. Prices in BDT.
 
 Machine-readable: [data.json](data.json) (everything the page shows), [shortlist.csv](shortlist.csv) (model x capacity, scored), [listings.csv](listings.csv) (every product page read). Interactive page: [index.html](index.html).
 
@@ -76,23 +76,16 @@ Score = 20% nand + 8% dram + 12% evidence + 8% reviewed + 6% warranty + 6% endur
 | MSI Spatium M480 Pro |    2 |              51900 | techland  | https://www.techlandbd.com/msi-spatium-m480-pro-2tb-hs-ssd                           |    25950 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18                                            |                      | C          |                2 |   0.64  |
 | XPG Gammix S70 Blade |    4 |              96000 | ultratech | https://www.ultratech.com.bd/adata-xpg-gammix-s70-blade-4tb-pcie-gen4x4-nvme-ssd     |    24000 | TLC confirmed | Dedicated DRAM confirmed | InnoGrit IG5236                                              |                      | C          |                3 |   0.639 |
 
-## Biggest price drops since 2026-11-16
+## Biggest price drops since 2026-11-17
 
-| name                                             | retailer   |   prev |   cur |   pct | url                                                        |
-|:-------------------------------------------------|:-----------|-------:|------:|------:|:-----------------------------------------------------------|
-| MSI SPATIUM M470 PRO 500GB PCIe 4.0 NVMe M.2 SSD | startech   |  13900 | 13899 |    -0 | https://www.startech.com.bd/msi-spatium-m470-pro-500gb-ssd |
+_none_
 
 ## Biggest price rises
 
-| name                                                | retailer   |   prev |   cur |   pct | url                                                                           |
-|:----------------------------------------------------|:-----------|-------:|------:|------:|:------------------------------------------------------------------------------|
-| MSI SPATIUM M470 PRO 500GB PCIe Gen4x4 M.2 2280 SSD | techland   |  13600 | 13899 |   2.2 | https://www.techlandbd.com/msi-spatium-m470-pro-500gb-pcie-gen4x4-m2-2280-ssd |
+_none_
 
 ## Back in stock (price change across a restock is not counted as a move)
 
-| name                                                           | retailer   | prev   |   cur | url                                                                   |
-|:---------------------------------------------------------------|:-----------|:-------|------:|:----------------------------------------------------------------------|
-| Twinmos Xtreme 2TB M.2 2280 PCIe Gen4x4 NVMe SSD #NV2TBG42280  | ryans      |        | 45900 | https://www.ryans.com/twinmos-xtreme-nvme-ssd                         |
-| PATRIOT VIPER Gaming VP4300 Lite 2TB PCIe Gen4 x4 M.2 NVMe SSD | ultratech  |        | 38000 | https://www.ultratech.com.bd/patriot-viper-gaming-vp4300-lite-2tb-ssd |
+_none_
 
 Left out here, kept in shortlist.csv: rows under 60% of the model's in-stock median (suspicious_low), out-of-stock rows, and rows with too little hardware evidence (thin_evidence).
