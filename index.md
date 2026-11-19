@@ -1,7 +1,7 @@
 # BD SSD Ledger
 
 SSD prices and hardware revisions across 12 Bangladeshi PC shops, scored for a PCIe Gen4 x4 M.2 slot (B650).
-Generated 2026-11-18T23:29:20+00:00 UTC; prices observed 2026-11-05T18:56:46+00:00 to 2026-11-18T23:29:05+00:00 UTC. Prices in BDT.
+Generated 2026-11-19T23:29:36+00:00 UTC; prices observed 2026-11-05T18:56:46+00:00 to 2026-11-19T23:29:26+00:00 UTC. Prices in BDT.
 
 Machine-readable: [data.json](data.json) (everything the page shows), [shortlist.csv](shortlist.csv) (model x capacity, scored), [listings.csv](listings.csv) (every product page read). Interactive page: [index.html](index.html).
 
@@ -49,11 +49,11 @@ Score = 20% nand + 8% dram + 12% evidence + 8% reviewed + 6% warranty + 6% endur
 | Netac NV5000               |    1 |              18700 | skyland   | https://www.skyland.com.bd/netac-nv5000-n-1tb-ssd                                          |    18700 | TLC confirmed | Revision-dependent              | Phison E16 (PCIe 4.0 per TPU entry)                                                                                               | controller + DRAM    | C          |                4 |   0.698 |
 | Acer Predator GM7000       |    1 |              25000 | ultratech | https://www.ultratech.com.bd/acer-predator-gm7000-1tb-pcie40-m2-ssd                        |    25000 | TLC confirmed | Dedicated DRAM confirmed        | InnoGrit IG5236                                                                                                                   |                      | C          |                2 |   0.693 |
 | Gigabyte Gen4 4000E        |    1 |              21300 | skyland   | https://www.skyland.com.bd/gigabyte-gen4-4000e-1tb-m2-2280-pcie-40-x4-nvme-14-internal-ssd |    21300 | TLC confirmed | DRAM-less, HMB supported        | Phison E21T                                                                                                                       |                      | C          |                4 |   0.693 |
-| Corsair MP600 Pro XT       |    1 |              28000 | ultratech | https://www.ultratech.com.bd/corsair-mp600-pro-xt-1tb-m2-nvme-pcie-gen-4-x4-ssd            |    28000 | TLC confirmed | Dedicated DRAM confirmed        | Phison PS5018-E18-41                                                                                                              |                      | C          |                7 |   0.689 |
+| Corsair MP600 Pro XT       |    1 |              28000 | ultratech | https://www.ultratech.com.bd/corsair-mp600-pro-xt-1tb-m2-nvme-pcie-gen-4-x4-ssd            |    28000 | TLC confirmed | Dedicated DRAM confirmed        | Phison PS5018-E18-41                                                                                                              |                      | C          |                7 |   0.692 |
 | Lexar NM790                |    1 |              24000 | ultratech | https://www.ultratech.com.bd/lexar-nm790-1tb-gen-4-nvme-m2-2280-ssd                        |    24000 | TLC confirmed | DRAM-less, HMB supported        | MaxioTech MAP1602A Falcon Lite                                                                                                    | controller           | C          |                8 |   0.689 |
 | Netac NV7000               |    1 |              22900 | startech  | https://www.startech.com.bd/netac-nv7000-1tb-ssd                                           |    22900 | TLC confirmed | Dedicated DRAM confirmed        | InnoGrit IG5236                                                                                                                   | controller           | C          |                3 |   0.688 |
 | Oscoo ON1000X              |    1 |              21300 | techland  | https://www.techlandbd.com/oscoo-on1000x-1tb-nvme-pcie-ssd                                 |    21300 | TLC confirmed | Unknown / insufficient evidence |                                                                                                                                   |                      | C          |                4 |   0.681 |
-| Kingston KC3000            |    1 |              29900 | selltech  | https://www.selltech.com.bd/kingston-kc3000-nvme-1tb-ssd                                   |    29900 | TLC confirmed | Dedicated DRAM confirmed        | Phison PS5018-E18 (8ch)                                                                                                           |                      | C          |                8 |   0.673 |
+| Kingston KC3000            |    1 |              29900 | selltech  | https://www.selltech.com.bd/kingston-kc3000-nvme-1tb-ssd                                   |    29900 | TLC confirmed | Dedicated DRAM confirmed        | Phison PS5018-E18 (8ch)                                                                                                           |                      | C          |                8 |   0.674 |
 
 ## Best in stock: 2TB+ (top 15 of 33 in stock)
 
@@ -75,30 +75,22 @@ Score = 20% nand + 8% dram + 12% evidence + 8% reviewed + 6% warranty + 6% endur
 | Corsair MP600 Pro XT |    4 |              95000 | skyland   | https://www.skyland.com.bd/corsair-mp600-pro-xt-4tb-ssd                              |    23750 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18-41                                         |                      | C          |                3 |   0.643 |
 | MSI Spatium M480 Pro |    2 |              51900 | techland  | https://www.techlandbd.com/msi-spatium-m480-pro-2tb-hs-ssd                           |    25950 | TLC confirmed | Dedicated DRAM confirmed | Phison PS5018-E18                                            |                      | C          |                2 |   0.64  |
 
-## Biggest price drops since 2026-11-18
+## Biggest price drops since 2026-11-19
 
-| name                                       | retailer   |   prev |   cur |   pct | url                                             |
-|:-------------------------------------------|:-----------|-------:|------:|------:|:------------------------------------------------|
-| Kingston NV3 1TB M.2 PCIe Gen 4.0 NVMe SSD | pchouse    |  24900 | 24600 |  -1.2 | https://www.pchouse.com.bd/kingston-nv3-1tb-ssd |
+| name                                               | retailer   |   prev |   cur |   pct | url                                                                     |
+|:---------------------------------------------------|:-----------|-------:|------:|------:|:------------------------------------------------------------------------|
+| Acer Predator GM7000 2TB PCIe4.0 M.2 SSD With DRAM | skyland    |  50000 | 49500 |    -1 | https://www.skyland.com.bd/acer-predator-gm7000-2tb-pcIe4-ssd-with-dram |
 
 ## Biggest price rises
 
-| name                                                  | retailer   |   prev |   cur |   pct | url                                                                |
-|:------------------------------------------------------|:-----------|-------:|------:|------:|:-------------------------------------------------------------------|
-| Colorful CN700 PLUS 1TB M.2 NVMe PCI-e Gen 4 SSD      | pqs        |  20000 | 21500 |   7.5 | https://www.pqs.com.bd/colorful-cn700-plus-1tb-ssd                 |
-| CORSAIR MP600 GS 500GB PCIE 4.0 GEN 4 X4 NVME M.2 SSD | techland   |  13500 | 14499 |   7.4 | https://www.techlandbd.com/corsair-mp600-gs-500gb-m2-pcie-nvme-ssd |
-| Colorful CN600 PRO 256GB M.2 NVMe SSD                 | startech   |   5999 |  6400 |   6.7 | https://www.startech.com.bd/colorful-cn600-pro-256gb-nvme-ssd      |
-| Colorful CN600 512GB PRO M.2 NVMe PCI-e Internal SSD  | pqs        |  10300 | 10500 |   1.9 | https://www.pqs.com.bd/colorful-cn600-512gb-pro-nvme-pci-e-ssd     |
+| name                                                 | retailer   |   prev |   cur |   pct | url                                                             |
+|:-----------------------------------------------------|:-----------|-------:|------:|------:|:----------------------------------------------------------------|
+| Team MP33 256GB M.2 PCIe SSD                         | skyland    |   6500 |  8300 |  27.7 | https://www.skyland.com.bd/team-mp33-256gb-ssd                  |
+| COLORFUL CN600 PRO 256GB M.2 PCI-E NVMe Internal SSD | techland   |   5999 |  6400 |   6.7 | https://www.techlandbd.com/colorful-cn600-pro-256gb-m2-nvme-ssd |
+| COLORFUL CN600 256GB M.2 NVME 2280 INTERNAL SSD      | techland   |   5900 |  5999 |   1.7 | https://www.techlandbd.com/colorful-cn600-256gb-m2-nvme-ssd     |
 
 ## Back in stock (price change across a restock is not counted as a move)
 
-| name                                            | retailer   | prev   |   cur | url                                                                  |
-|:------------------------------------------------|:-----------|:-------|------:|:---------------------------------------------------------------------|
-| Samsung 980 Pro 1TB PCIe 4.0 M.2 NVMe SSD       | ultratech  |        | 26000 | https://www.ultratech.com.bd/samsung-980-pro-1tb-pcie-40-m2-nvme-ssd |
-| Samsung 980 Pro 2TB PCIe 4.0 M.2 NVMe SSD       | ultratech  |        | 46000 | https://www.ultratech.com.bd/samsung-980-pro-2tb-pcie-40-m2-nvme-ssd |
-| Colorful CN600 PRO 1TB M.2 NVMe SSD             | pqs        |        | 18200 | https://www.pqs.com.bd/colorful-cn600-pro-1tb-m-2-nvme-ssd           |
-| Colorful CN700 PLUS 1TB PCIe Gen 4 NVMe M.2 SSD | startech   |        | 21500 | https://www.startech.com.bd/colorful-cn700-plus-1tb-nvme-ssd         |
-| Colorful CN600 PRO 512GB M.2 NVMe SSD           | startech   |        | 10500 | https://www.startech.com.bd/colorful-cn600-pro-512gb-nvme-ssd        |
-| Colorful CN600 PRO 1TB M.2 NVMe SSD             | startech   |        | 18200 | https://www.startech.com.bd/colorful-cn600-pro-1tb-nvme-ssd          |
+_none_
 
 Left out here, kept in shortlist.csv: rows under 60% of the model's in-stock median (suspicious_low), out-of-stock rows, and rows with too little hardware evidence (thin_evidence).
